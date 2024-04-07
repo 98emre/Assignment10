@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Biometric</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Star Wars Biometrics</h1>
+    </header>
+
+    <div class="input-container centered-container">
+        <label for="characterName">Search a character</label>
+        <input id="characterName" type="text"/>
+    </div>
+    
+    <div class="output-container centered-container">
+        <label for="characterBio">Output</label>
+        <textarea id="characterBio" rows="5" cols="50" readonly></textarea>
+    </div>
+    
+
+    <button id="submitButton">Search</button>
+    
+    <footer>&copy; Emre Demirel</footer>
+
+    <script src="api.js"></script>
+</body>
+</html>
