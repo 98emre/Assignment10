@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #770909;
+    color: rgb(241, 236, 236);
+    font-size: large;
+    font-weight: bolder;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+
+.container {
+    text-align: center;
+}
+
+#drawCardButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+
+#drawCardButton:hover {
+    background-color: #0056b3;
+}
+
+#cardImageContainer {
+    margin-top: -10%;
+    padding: 10px;
+}
+
+footer {
+    background-color: #770909;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+}
+
